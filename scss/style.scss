@@ -1,0 +1,22 @@
+@import "helpers/resets";
+@import "helpers/mixins";
+@import "helpers/variables";
+@import "helpers/classes";
+@import "helpers/keyframes";
+@import "helpers/fonts";
+@import "helpers/3dscroll";
+
+@import "items/menu_icon";
+@import "items/form";
+@import "items/popup";
+
+@import "parts/header";
+@import "parts/general";
+@import "parts/responsive";
+@import "parts/aside_social";
+@import "parts/hero";
+@import "parts/skills";
+@import "parts/services";
+@import "parts/portfolio";
+@import "parts/contact";
+@import "parts/footer";

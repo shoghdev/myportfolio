@@ -1,0 +1,29 @@
+.services-container {
+    .component {
+        .heading {
+            text-transform: uppercase;
+            font-size: var(--fsz-xxl);
+            margin-bottom: var(--fsz-md);
+            color: var( --slate);
+            transition: var(--transition);
+        }
+
+        .descripton {
+            color: var(--primary);
+        }
+
+        .icon {
+            margin-bottom: var(--fsz-md);
+
+            img {
+                filter: invert(1)
+            }
+        }
+
+        &:hover {
+            .heading {
+                color: var(--secondary);
+            }
+        }
+    }
+}

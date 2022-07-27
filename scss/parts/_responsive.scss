@@ -1,0 +1,114 @@
+@media (max-width: 1280px) {
+    body {
+        font-size: var(--fsz-xxl);
+    }
+
+    .button {
+        margin-bottom: var(--fsz-lg);
+        width: 10rem;
+    }
+
+    .half-container, 
+    .w-45,
+    .w-30{
+        width: 100%;
+    }
+
+    .res-flex-col {
+        flex-direction: column;
+
+        .component {
+            margin-bottom: 50px;
+        }
+    }
+
+    header {
+
+        // position: relative;
+        .header-container {
+            flex-direction: column;
+            font-size: var(--fsz-md);
+
+            .header-top {
+                width: 100%;
+                justify-content: space-between;
+
+                .btn {
+                    display: block;
+                }
+
+                .logo {
+                    img {
+                        width: calc(var(--tab-height)*2);
+                    }
+                }
+            }
+
+            .header-bottom {
+                display: none;
+                flex-direction: column;
+                background-color: var(--bg-color-variant);
+                width: 100vw;
+                height: 100vh;
+                margin-top: var(--fsz-xl);
+                -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+                .header-menu {
+                    nav {
+                        ul {
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .about-container {
+        .content {
+            flex-direction: column-reverse;
+
+            .half-container:first-child {
+                margin-bottom: var(--fsz-heading);
+
+
+                .button {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .skills-container {
+        .content {
+            .skills-inner  {
+                margin-bottom: 50px;
+            }
+            .lang-icon {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        padding: 0 var(--fsz-md);
+
+        h1 {
+            font-size: var(--fsz-heading);
+            text-align: center;
+        }
+    }
+
+    .skills-container {
+        .lang-icon {
+            width: 100%;
+        }
+    }
+}

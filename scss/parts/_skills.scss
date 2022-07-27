@@ -1,0 +1,34 @@
+.skills-container {
+    .content {
+
+        .skills-inner {
+            margin-right: 15%;
+            h3 {
+                text-transform: uppercase;
+            }
+
+            .item {
+                position: relative;
+                margin-bottom: 10px;
+
+                &:not(:first-child) {
+                    p {
+                        color: var(--primary);
+                    }
+
+                    &:before {
+                        content: "\2023";
+                        display: block;
+                        color: var(--secondary);
+                        position: absolute;
+                        font-size: var(--fsz-heading);
+                        top: -50%;
+                        left: -23px;
+                        transform: translateX(50deg);
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.contact-container {
+    form {
+      width: 80%;
+      fieldset {
+        border: 2px solid var(--slate);
+        padding: var(--fsz-heading);
+
+        input,
+        textarea {
+          font-size: var(--fsz-md);
+          color: var(--primary);
+          margin-bottom: var(--fsz-xs);
+          padding: var(--fsz-xxs);
+          border-bottom: 2px solid var(--slate);
+        }
+    }
+  }
+}

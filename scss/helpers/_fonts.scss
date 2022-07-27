@@ -1,0 +1,11 @@
+// @use "font-face(Menlo-Regular, /fonts)";
+// @use "font-face(Monaco, /fonts)";
+@font-face {
+    font-family: "Menlo-Regular";
+    src: url("../fonts/Menlo-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Monaco";
+    src: url("../fonts/Monaco.woff") format("woff");
+}

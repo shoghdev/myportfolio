@@ -1,0 +1,139 @@
+@import "../../scss/helpers/resets";
+@import "../../scss/helpers/variables";
+@import "../../scss/helpers/classes";
+@import "../../scss/helpers/keyframes";
+@import "../../scss/helpers/fonts";
+
+@import "../../scss/items/menu_icon";
+@import "../../scss/items/form";
+
+@import "../../scss/parts/contact";
+@import "../../scss/parts/footer";
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Monaco";
+
+  .hidden {
+    display: none;
+  }
+
+  .active {
+    color: var(--secondary);
+
+    &:after {
+      content: "\2023";
+      display: block;
+      color: var(--secondary);
+      position: absolute;
+      font-size: var(--fsz-heading);
+      top: -50%;
+      right: 0;
+    }
+  }
+
+  .admin-header {
+    padding: var(--fsz-md) 0;
+    background-color: var(--blue);
+  }
+
+  .admin-main {
+    .admin-nav {
+      width: 10%;
+
+      ul {
+        margin-top: var(--fsz-md);
+        margin-left: var(--fsz-md);
+
+        li {
+          margin-bottom: var(--fsz-xxs);
+          position: relative;
+          color: var(--primary);
+        }
+      }
+    }
+  }
+
+  .container {
+    padding: 0;
+    margin: var(--fsz-md) auto 0;
+
+    form {
+      border: 2px solid var(--primary);
+      padding: var(--fsz-md);
+      color: var(--primary);
+
+      input[type=text] {
+        color: var(--primary);
+      }
+      legend {
+        color: var(--secondary);
+        font-size: var(--fsz-xxl);
+      }
+
+      label,
+      div {
+        span {
+          color: var(--secondary);
+        }
+      }
+
+      .field {
+        margin-bottom: var(--fsz-md);
+
+        .w-30 {
+          p {
+            color: var(--secondary);
+          }
+        }
+
+        .w-70 {
+          img {
+            width: 5rem;
+          }
+        }
+      }
+
+      .information {
+        margin-top: var(--fsz-md);
+
+        .field {
+          margin-bottom: var(--fsz-md);
+
+          .w-30 {
+            p {
+              color: var(--primary);
+            }
+          }
+
+          input {
+            width: 80%;
+          }
+        }
+
+        input {
+          margin-left: var(--fsz-md);
+          border: 1px solid var(--primary);
+          padding: calc(var(--fsz-xxs)/2);
+          color: var(--primary);
+        }
+      }
+
+      .button {
+        margin: var(--fsz-heading) auto 0;
+        background-color: transparent;
+      }
+
+    }
+  }
+
+  .icon_link {
+    input:first-child {
+      margin-bottom: var(--fsz-md);
+    }
+  }
+
+  footer {
+    color: var(--primary);
+  }
+}

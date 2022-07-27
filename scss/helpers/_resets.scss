@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    ul {
+        list-style-type: none;
+        // margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary);
+    }
+
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+
+        textarea {
+            resize: none;
+        }
+
+        input,
+        textarea {
+            background-color: transparent;
+            border: none;
+            border-width: 0;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+        }
+    }
+
+}

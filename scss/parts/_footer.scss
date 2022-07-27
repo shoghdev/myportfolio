@@ -1,0 +1,10 @@
+footer {
+    display: none;
+    background-color: var(--blue);
+    padding: var(--fsz-md) 0;
+
+    .f-link {
+        margin-left: var(--fsz-md);
+        color: var(--secondary);
+    }
+}

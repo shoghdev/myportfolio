@@ -1,0 +1,34 @@
+:root {
+    --primary: #ccd6f6;
+    --primary-variant: #ccd6f6;
+    --slate: #8892b0;
+    --secondary : #f4cc21;
+    --secondary-variant: #f4cd214b;
+    --bg-color: #0a192f;
+    --bg-color-variant: #112240;
+    --bg-transparent: #0a192fdf; 
+    --blue: #0a1e39;
+    --surfaces: #fff;
+    --errors: #dc3545;
+
+    --fsz-xxs: .75rem;
+    --fsz-xs: .813rem;
+    --fsz-sm: .875rem;
+    --fsz-md: 1rem;
+    --fsz-lg: 1.125rem;
+    --fsz-xl: 1.25rem;
+    --fsz-xxl: 1.375rem;
+    --fsz-heading: 2rem;
+    --tab-height : 2.625rem;
+    --border-radius: .25rem;
+
+
+    --easing: cubic-bezier(0.645,0.045,0.355,1);
+    --transition: all 0.5s cubic-bezier(0.645,0.045,0.355,1);
+    --hamburger-width: 30px;
+    --ham-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
+    --ham-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
+    --ham-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
+    --ham-after-active: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
+
+}

@@ -1,0 +1,33 @@
+form {
+
+  input::-webkit-input-placeholder,
+  textarea::-webkit-textarea-placeholder {
+    /* Edge */
+    color: var(--primary);
+  }
+
+  input:-ms-input-placeholder,
+  textarea:-ms-textarea-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--primary);
+  }
+
+  input::placeholder,
+  textarea::-webkit-input-placeholder {
+    color: var(--primary);
+
+  }
+
+  .button {
+    padding: var(--fsz-xxs) var(--fsz-md);
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    border-radius: var(--border-radius);
+    margin-top: var(--fsz-md);
+
+    &:hover {
+      background-color: var(--secondary-variant);
+      transition: var(--transition);
+    }
+  }
+}

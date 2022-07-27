@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    color: var(--slate);
+    font-family: "Menlo-Regular"
+}
+
+html {
+    scroll-behavior: smooth;
+
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background-color: var(--bg-color);
+    }
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}

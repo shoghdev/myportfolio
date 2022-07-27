@@ -1,0 +1,34 @@
+header {
+    display: none;
+    .header-container {
+        font-family: "Monaco";
+        font-size: var(--fsz-xxs);
+        
+        .logo {
+            img {
+                width: calc(var(--tab-height)*2);
+            }
+        }
+        .header-menu {
+            nav {
+                ul {
+                    li {
+                        margin: calc(var(--fsz-xxs)/2);
+                        a {
+                            padding: var(--fsz-xxs);
+                            color: var(--primary);
+    
+                            &:hover, span {
+                                color: var(--secondary);
+                            }
+    
+                            &:hover {
+                                transition: var(--transition);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
